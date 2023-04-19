@@ -1,0 +1,116 @@
+/* Sintaxis de CSS | Selector puede ser una etiqueta de HTML  es un atributo que le vamos a dar a la etiqueta ->
+
+propiedad -> 
+
+selector {
+  propiedad : valor;
+}
+
+*/
+
+h1 { color: blue; 
+
+}
+
+/*
+p { color: red; 
+}
+*/
+
+/* Para individualizar los elementos HTML en CSS puedo utilizar clases | Siempre una clase lleva el punto adelante. */
+
+
+
+/* ID */
+
+#servicios { background-color: khaki;
+
+
+
+}
+
+/* La diferencia entre CLASS e ID es que CLASS se puede reutilizar, pero ID no | Caso de la vida: el ID es como tu DNI, en cambio la CLASS es como un ATRIBUTO tuyo 
+
+ID: Lo vamos a utilizar paara vincular enlances, para un indetificar una seccion completa o javascript u otros lenguajes.
+
+CLASS: Lo vamos a utilizar todo el tiempo.
+
+*/
+
+
+
+/* El resteeo | Se utiliza el selector universal que es un "*" | Le saco el margen y el relleno | Esto nos da la posiblidad de poder decidir nosotros mismos todos los atributos de base */
+
+* { 
+margin: 0;
+padding: 0;
+
+ }
+
+ /* Propiedades de texto */
+
+
+.paragraph { 
+  color: green; 
+  text-align: right;
+  text-decoration: underline;
+  font-size:   23px;
+
+}
+
+/*a {
+  text-decoration: none;
+  cursor: pointer;
+}*/
+
+/* Unidades de medida | Se dividen en dos grupos. El grupo de las unidades absolutas y el grupo de unidades relativas
+Unidades Absolutas (No cambian su tamaño en distintas pantallas): cm - pt - mt
+
+Unidades relativas (Se adaptan al tipo de pantalla): px - % - rem - vh - vw - em
+*/
+
+.paragraph_2 {background-color: blue;
+width: 50%; /* El ancho, sera el 50% de cada pantalla*/ 
+}
+
+/* REM | Directamente proporcional al elemento root | Root es la medida general que nos da el navegador | El navegador por default nos agrega 16px de medida* | Cada rem es multiplicado por 16px  | 16 * 4 = 64 px/
+
+/* a { font-size: 4rem: /* 16* 4 }
+
+
+img { height: 20px; }
+*/  
+
+
+
+
+/* EM | Va a ser relativa al HTLM o :root que son definidos por nosotros mismos */ 
+
+
+/* Defino la unidad de medida general para todo el proyecto */ 
+
+html {
+font-size: 40px;
+}
+
+
+/* ¿Qué y en dónde utilizamos cada medida? |
+Parrafos suelente tener pixeles
+Las imgenes y los elementos multimedia, suele utilizar %, vh, vw
+Las Propiedades de la caja, margin y padding pueden utlizar em o rem
+
+*/
+
+
+body { 
+  /* url  -> funcion | Esto hace, preguntar donde esta la imagen*/
+  
+  
+  background-image: url('../clase_3/images/logo.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  /* parallax: url('../clase_3/images/logo.jpg');*/
+
+  background-attachment: fixed; 
+}
+

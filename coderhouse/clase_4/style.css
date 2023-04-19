@@ -1,0 +1,64 @@
+/* Box Modeling */
+/* Tiene 4 atributos/propiedades la caja | Pensando en la caja de adentro hacia afuera
+
+- Contenido (content)
+- Relleno (padding)
+- Borde (border)
+- Margen (margin)
+
+*/
+
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  
+  
+}
+
+
+.section-first {
+background-color: #d4d0d0;
+
+/* Padding o relleno | siempre lleva una unidad de medida para definir cuanto crece | Si la uso sola, afecta a los cuatro lados, es decir le agrega 80px a cada lado de la caja*/
+
+
+
+/* Manipular los cuatro lados de la caja con todas estas propiedades */
+
+/*
+padding: 80px;
+padding-top: 80px;
+padding-right: 100px;
+padding-bottom: 50px;
+padding-left: 150px;
+
+padding: 80px 400px; - Padding vertical y horizontal
+
+padding: 80px 400px 100px 50px; - Padding a todos los lados
+
+
+
+border: 2px solid black; 
+
+
+border-top: 2px dotted red;
+border-bottom: 10px dashed green;
+
+ margin: 90px; 
+margin-top: 90px;
+margin-right: 80px;
+margin-bottom: 50px;
+margin-left: 90px;
+margin: 90px 80px 100px 50px;
+*/
+
+padding: 80px;
+border: 2px solid black;
+margin: 100px;
+
+footer {
+
+}
+
+}

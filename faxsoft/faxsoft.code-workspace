@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "faxsoft",
+			"path": "."
+		},
+		{
+			"name": "PizzeriaFAX",
+			"path": "../PizzeriaFAX"
+		},
+		{
+			"path": "../Diseño Web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PizzeriaFAX"
+	}
+}
