@@ -1,0 +1,17 @@
+/* Pseudoclases y Pseudoelementos 
+
+- Pseudoclases pueden activarse con la accion del usuario, o tambien pueden agregar partes nuevas a un elemento de HMTL
+
+*/
+
+.about-us p:first-child {
+  font-size: 40px;
+  color: blue;
+
+}
+
+.about-us p:nth-child(3) {
+  font-weight: bold;
+}
+
+

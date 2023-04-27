@@ -1,0 +1,21 @@
+{
+  "name": "segunda_sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "description": "",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.pdf {
+  display: flex;
+  width: 50%;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.qr {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.productos img {
+  margin-top: 27px;
+  margin-left: 15px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.principal-content .form {
+  margin-top: 50px;
+}
+
+.form input {
+  margin: 5px 0;
+  margin-left: 5px;
+}
+
+.form .messageForm {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 90%;
+  height: 500px;
+}
+
+.form .formPlace input {
+  width: 90%;
+}
+
+#principal-content p {
+  border: 2px solid black;
+  width: 320px;
+}
+
+#principal-content .messageContact {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#principal-content .messageContact p {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+#principal-content .logoContact {
+  margin-right: 100%;
+}
+
+#principal-content .mapContact {
+  margin-left: 60%;
+}
+
+#principal-content .mapContact p {
+  margin: 10px 20%;
+}
+
+#principal-content .nosotrosContact {
+  margin: 30px 0;
+  margin-left: 300px;
+}
+
+footer {
+  background-color: aquamarine;
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
